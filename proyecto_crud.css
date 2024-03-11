@@ -1,0 +1,90 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #058aac;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.proyecto_crud {
+   text-align: center; 
+   padding: 30px;
+   color: #fff;
+   font-size: 2rem;
+   border: 1px solid #ffffff;
+   background-color: #172c53;
+   border-radius: 30px;
+}
+
+.proyecto_form {
+    display: flex;
+    margin: 50px 0;
+    justify-content: space-around;
+}
+
+.form_input {
+    flex: 1;
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+.button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: all 0.3s;
+}
+
+.button:hover {
+    transform: scale(1.2);
+}
+
+.button--primary {
+    background-color: #098a5f;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.button--secondary {
+    background-color: #c0bd18;
+    color: #fff;
+}
+
+.button--tertiary {
+    background-color: #f50a0a;
+    color: #fff;
+}
+
+.proyecto_table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #ffffff;
+}
+
+.table_header, .table_body td{
+    border: 1px solid #ffffff;
+    padding: 8px;
+}
+
+.table_header {
+    background-color: #011844;
+}
+
+.table_body td:nth-child(5) {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
