@@ -1,0 +1,95 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(/assets/img/fondo.jpg);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.proyecto_crud {
+   text-align: center; 
+   padding: 10px;
+   color: #ffffff;
+   font-size: 2rem;
+}
+
+.proyecto_form {
+    display: flex;
+    margin: 50px 0;
+    justify-content: space-around;
+}
+
+.form_input {
+    flex: 1;
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+.button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: all 0.3s;
+}
+
+.button:hover {
+    transform: scale(1.2);
+}
+
+.button--primary {
+    background-color: #098a5f;
+    border: 1px solid #fff;
+    color: #ffffff;
+}
+
+.button--secondary {
+    background-color: #b8b500;
+    color: #fff;
+    font-size: 13px;
+}
+
+.button--tertiary {
+    background-color: #d60404;
+    color: #fff;
+    font-size: 13px;
+}
+
+.proyecto_table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #ffff;
+}
+
+.table_header, .table_body td{
+    border: 1px solid #858383;
+    padding: 8px;
+}
+
+.table_header {
+    background-color: #343535;
+}
+
+.table_body td:nth-child(5) {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
