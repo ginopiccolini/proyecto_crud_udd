@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROYECTO CRUD</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header class="logo">
+        <img src="assets/img/logo.png" width="100px" alt="">
+    </header>
+
+    <main class="container">
+
+        <section class="proyecto">
+            <h1 class="proyecto_crud">Inventario de Computadores por Escuela</h1>
+            <form id="formRegister" class="proyecto_form">
+                <input type="text" placeholder="Marca" id="marcaInput" class="form_input">
+                <input type="number" placeholder="Serie" id="serieInput" class="form_input">
+                <input type="text" placeholder="Escuela" id="escuelaInput" class="form_input">
+                <input type="text" placeholder="Ubicación del PC" id="ubicacionInput" class="form_input">
+                <button type="submit" id="submitButton" class="button button--primary">Registrar</button>
+            </form>
+            <table class="proyecto_table">
+                <thead>
+                    <tr>
+                        <th class="table_header">Marca</th>
+                        <th class="table_header">Serie</th>
+                        <th class="table_header">Escuela</th>
+                        <th class="table_header">Ubicación</th>
+                        <th class="table_header">Acción</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody" class="table_body">
+                    
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+
+
+
+
+
+    <script src="js/codigos.js"></script>
+</body>
+
+</html>
