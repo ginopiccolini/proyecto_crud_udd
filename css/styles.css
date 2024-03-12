@@ -1,6 +1,6 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url(/assets/img/fondo.jpg);
+    background-image: url(https://res.cloudinary.com/dkso5sbc1/image/upload/v1710209089/fondo_sgotaj.jpg);
 }
 
 *{
@@ -90,3 +90,6 @@ body {
     display: flex;
     justify-content: space-around;
 }
+
+
+
