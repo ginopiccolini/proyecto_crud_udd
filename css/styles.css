@@ -1,6 +1,6 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url(/assets/img/fondo.jpg);
+    background-color: #011d1bee;
 }
 
 *{
@@ -54,7 +54,7 @@ body {
 }
 
 .button--primary {
-    background-color: #098a5f;
+    background-color: #015a1a;
     border: 1px solid #fff;
     color: #ffffff;
 }
@@ -83,12 +83,10 @@ body {
 }
 
 .table_header {
-    background-color: #343535;
+    background-color: #3c4141;
 }
 
 .table_body td:nth-child(5) {
     display: flex;
     justify-content: space-around;
 }
-
-
